@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5771" started-at="2019-08-29T11:51:11Z" finished-at="2019-08-29T11:51:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5771" started-at="2019-08-29T11:51:11Z" finished-at="2019-08-29T11:51:17Z">
+      <class name="com.twitter.statuses.TwitterWorkflowTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.twitter.statuses.TwitterWorkflowTest@6a4f787b]" name="setup" is-config="true" duration-ms="1173" started-at="2019-08-29T11:51:12Z" finished-at="2019-08-29T11:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postTweet()[pri:0, instance:com.twitter.statuses.TwitterWorkflowTest@6a4f787b]" name="postTweet" duration-ms="3342" started-at="2019-08-29T11:51:13Z" finished-at="2019-08-29T11:51:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTweet -->
+        <test-method status="PASS" signature="readTweet()[pri:0, instance:com.twitter.statuses.TwitterWorkflowTest@6a4f787b]" name="readTweet" duration-ms="665" started-at="2019-08-29T11:51:16Z" depends-on-methods="com.twitter.statuses.TwitterWorkflowTest.postTweet" finished-at="2019-08-29T11:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readTweet -->
+        <test-method status="PASS" signature="deleteTweet()[pri:0, instance:com.twitter.statuses.TwitterWorkflowTest@6a4f787b]" name="deleteTweet" duration-ms="523" started-at="2019-08-29T11:51:17Z" depends-on-methods="com.twitter.statuses.TwitterWorkflowTest.readTweet" finished-at="2019-08-29T11:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTweet -->
+      </class> <!-- com.twitter.statuses.TwitterWorkflowTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

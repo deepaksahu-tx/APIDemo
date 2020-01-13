@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="examples.Test6_GroovyFeature"/>
+      <class name="examples.Test5_ReadResponseInDiffWay"/>
+      <class name="examples.Test8_GetHeaderAndCookies"/>
+      <class name="examples.Test1_BasicForXml"/>
+      <class name="examples.Test1_Basic"/>
+      <class name="com.twitter.statuses.TwitterWorkflowTest"/>
+      <class name="com.twitter.statuses.UserTimeLineTest"/>
+      <class name="examples.Test10_VerifyResponse"/>
+      <class name="examples.Test9_RequestDemo"/>
+      <class name="examples.Test7_JsonPath"/>
+      <class name="examples.Test11_TimeMesurement"/>
+      <class name="examples.Test2_RootSetting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
